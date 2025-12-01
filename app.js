@@ -318,7 +318,7 @@ function analyzeFinance() {
 
   if (recommendations.length === 0) {
     recommendationList.innerHTML =
-      "<li>**PERTTAHANKAN!** Keuangan Anda sudah ideal sesuai aturan 50/30/20.</li>";
+      "<li>PERTAHANKAN!! Keuangan Anda sudah ideal sesuai aturan 50/30/20.</li>";
   } else {
     recommendations.slice(0, 5).forEach((rec) => {
       const li = document.createElement("li");
